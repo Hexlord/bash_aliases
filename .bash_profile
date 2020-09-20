@@ -70,11 +70,9 @@ then
 fi'
 alias gpush='git push'
 alias uregen='printf "Generating VS project..." && "C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\UnrealVersionSelector.exe" -projectfiles "$PWD\ProjectR3.uproject" && printf "Done\n"'
-alias cregen='cmake -S "CMake" -B "CMake/Build"'
+alias lion='cmake -GNinja -SCMake -BCMake/Build && clion CMake'
 alias uvs='start ProjectR3.sln'
 alias urvs='uregen && uvs'
-alias cvs='start CMake/Build/A1_CMAKE.sln'
-alias cregenvs='cregen && cvs'
 
 alias gstatus='git status'
 alias gstat='git status'
