@@ -52,12 +52,12 @@ gc()
 }
 gcom()
 {
-  local message = "$1:-Update from "
+  local message="${1:-Update from }"
   git add . && (git commit -m "$message ($(date +'%d.%m %H:%M'))")
 }
 gcompush()
 {
-  local message = "$1:-Update from "
+  local message="${1:-Update from }"
   git add . && (git commit -m "$message ($(date +'%d.%m %H:%M'))") && git push
 }
 gsoft()
