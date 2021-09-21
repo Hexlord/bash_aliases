@@ -1,11 +1,11 @@
-# bash_profile
+# bash_aliases
 My bash profile with some useful aliases (mostly git-related)
 
 ## Installation:
 1) Run git bash
 2) Enter 'cd ~'
-3) Enter 'code .bash_profile' (or use nano if you dont have VS Code)
-4) Paste .bash_profile content from this repo
+3) Enter 'code .bash_aliases' (or use nano if you dont have VS Code)
+4) Paste .bash_aliases content from this repo
 5) Save & close .bash_profile
 6) Enter 'source .bash_profile'
 
