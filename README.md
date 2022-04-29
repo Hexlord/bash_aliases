@@ -1,13 +1,14 @@
-# bash_aliases
+# bash_profile
 My bash profile with some useful aliases (mostly git-related)
+You have to use bash_profile and not bash_aliases under windows!
 
 ## Installation:
 1) Run git bash
 2) Enter 'cd ~'
-3) Enter 'code .bash_aliases' (or use nano if you dont have VS Code)
-4) Paste .bash_aliases content from this repo
-5) Save & close .bash_aliases
-6) Enter 'source .bash_aliases'
+3) Enter 'code .bash_profile' (or use nano if you dont have VS Code)
+4) Paste .bash_profile content from this repo
+5) Save & close .bash_profile
+6) Enter 'source .bash_profile'
 
 ## Usage:
 When in git bash, use 'gcompush [desc]' to automatically commit all files and push them to remote.
