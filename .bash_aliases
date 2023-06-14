@@ -57,8 +57,9 @@ gcom()
 }
 gcompush()
 {
+  local branch="$(current_branch)"
   local message="${1:-Update from }"
-  git add . && (git commit -m "$message ($(date +'%d.%m %H:%M'))") && git push
+  git add . && (git commit -m "$message ($(date +'%d.%m %H:%M'))") && git fetch && git rebase "origin/$branch" && git push
 }
 gsoft()
 {
